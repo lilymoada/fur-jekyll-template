@@ -1,0 +1,18 @@
+---
+title: Lily Moada
+hero: Lily Moada
+subtitle: Çanta Gözlük Saat
+---
+
+<div class="content" id="products">
+	<section>
+		<div class="container">
+			<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_products" class="btn"><strong>&#9998;</strong> Manage products</a></p>
+				{% for product in site.products %}
+						<div class="product-details">
+							<p><a href="{{ product.url }}">{{ product.urun_kodu }}</a></p>
+						</div>
+				{% endfor %}
+		</div>
+	</section>
+</div>
