@@ -9,9 +9,11 @@ layout: default
 				<div class="product-details" id="add">
 					<h3>{{ page.name }}</h3>
 					{{ page.description_markdown | markdownify }}
-
+					<p>Ürün Kodu: {{ page.urun_kodu }}</p>
 					<h4>{{ page.price }} ₺</h4>
-					<div class="button">{% include snipcart-button.html product=page %}</div>
+					<p>Ödeme Seçenekleri</p>
+					<div class="button"><button class="snipcart-add-item" onclick="window.location.href='https://api.whatsapp.com/send?phone=905396405170&text=Merhabalar%0D%0ASitenizde+G%C3%B6rd%C3%BC%C4%9F%C3%BCm+%C3%BCr%C3%BCn+kodu%3A+%22{{ page.urun_kodu}}%22+olan+%C3%BCr%C3%BCn%C3%BCn%C3%BCz%C3%BC+sat%C4%B1n+almak+istiyorum.'">Havale/Eft</button> <button class="snipcart-add-item" onclick="window.location.href='{{ page.iyzico}}'">Kredi Kartı</button></div>
+
 				</div>
 			</div>
 		</div>

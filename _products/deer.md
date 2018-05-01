@@ -20,10 +20,10 @@ styles:
   - name: Black
     color: '#000000'
     image: /images/products/deer/black.jpg
-  - name: Blue
+  - name: Black
     color: '#39589e'
     image: /images/products/deer/blue.jpg
-  - name: Clay
+  - name: Black
     color: '#9c5145'
     image: /images/products/deer/clay.jpg
   - name: Cream
