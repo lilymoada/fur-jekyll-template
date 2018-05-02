@@ -1,17 +1,16 @@
 ---
-name:
-garment_type: top
-price:
-sku:
-description:
+name: 
+description_markdown: >-
+
+garment_type: canta
+price: ''
+stock: 
 sizes:
-  - XS
-  - Small
-  - Medium
-  - Large
-  - XL
+  - normal
 styles:
-  - name:
-    color:
-    image:
+  - name: Black
+    color: '#dfd3c2'
+    image: /images/urunler/818115A1/818115A1.jpg
+iyzico: 
+urun_kodu: 
 ---
