@@ -429,7 +429,7 @@ ul {
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2); }
 
 section {
-  padding: 50px 0; }
+  padding: 0; }
 
 section + section {
   padding-top: 0; }
