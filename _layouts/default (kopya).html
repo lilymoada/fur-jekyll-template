@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="tr">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,20 +33,6 @@
 				<div class="company-name"><a href="{{ site.baseurl }}/">{% include logo.html %} <span>{{ site.title }}</span></a></div>
 				{% include navigation.html %}
 			</div>
-
-			<section class="hero">
-				<div class="text-container">
-					{% if page.hero %}
-						<h2>{{ page.hero }}</h2>
-					{% elsif page.name %}
-						<h2>{{ page.name }}</h2>
-					{% endif %}
-
-					{% if page.subtitle %}
-						<p>{{ page.subtitle }}</p>
-					{% endif %}
-				</div>
-			</section>
 		</header>
 		{{ content }}
 		<footer>
@@ -68,17 +54,17 @@
 
 					<li class="footer-nav">
 						<h4>Yardım</h4>
-						<ul>
-							<li><a href="/shipping/">Kargo</a></a></li>
+						<ul>							
+							<li><a href="/guvenilirlik/">Size Nasıl Güvenicem?</a></li>
 							<li><a href="/returns/">İade politikası</a></li>
+							<li><a href="/shipping/">Kargo</a></a></li>
 						</ul>
 					</li>
 
 					<li>
 						<h4>İletişim</h4>
 						<p>Aklınıza bir şey mi takıldı? <a href="/iletisim/">Bizimle iletişime geçin.</a>.
-						<p class="email"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
-						<p><a href="https://api.whatsapp.com/send?phone=9{{ site.author.phone }}">{{ site.author.phone }}</a></p>
+						<p>Whatsapp <br><a href="https://api.whatsapp.com/send?phone=9{{ site.author.phone }}">{{ site.author.phone }}</a></p>
 
 						<div class="social-icons">
 							<a class="email" href="mailto:{{ site.author.email }}">{% include social-icon.html icon="Email" %}</a>

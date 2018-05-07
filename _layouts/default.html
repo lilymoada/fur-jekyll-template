@@ -26,20 +26,21 @@
 		{% if site.snipcart_key %}
 			<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="{{ site.snipcart_key }}"></script>
 		{% endif %}
+	
 	</head>
 	<body>
 		<header>
-			<div class="container">
-				<div class="company-name"><a href="{{ site.baseurl }}/">{% include logo.html %} <span>{{ site.title }}</span></a></div>
+			<center><div class="container">
+				<div class="company-name"><a href="{{ site.baseurl }}/">{% include logo.html %}</a></div>
 				{% include navigation.html %}
-			</div>
+			</center></div>
 		</header>
 		{{ content }}
 		<footer>
 			<div class="container">
 				<ul class="footer-columns">
 					<li class="about">
-						<div class="company-name">{% include logo.html %} <span>{{ site.title }}</span></div>
+						<div class="company-name">{% include logo.html %} </div>
 						<p class="editable">Hayatınıza heyecan katacak tasarımları, hızlı, güvenilir ve uygun fiyatlarla kapınıza getiriyoruz.</p>
 					</li>
 

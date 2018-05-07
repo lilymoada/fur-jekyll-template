@@ -15,7 +15,7 @@
 header {
 	color: #fff;
 	padding: 20px 0 20px 0;
-	background: linear-gradient(135deg, $brand-color 0%, $brand-color-2 100%);
+	background-color: #fff;
 	position: relative;
 
 	p {
@@ -50,7 +50,7 @@ header {
 	}
 
 	a {
-		color: #fff;
+		color: #000;
 		text-decoration: none;
 		z-index: 1;
 		position: relative;
@@ -66,17 +66,15 @@ nav {
 	padding: 20px 0 0 0;
 
 	@media #{$mid-point} {
-		display: inline-block;
 		vertical-align: top;
 		width: auto;
-		padding: 0 0 0 40px;
 	}
 
 	a {
 		margin: 0 3px;
 		padding: 20px 10px;
 		border-bottom: 1px solid rgba(255,255,255,0);
-		color: rgba(255,255,255,.6);
+		color: #000;
 		transition: 200ms ease-in color;
 		display: none;
 
@@ -107,7 +105,8 @@ nav {
 	}
 
 	a:hover {
-		color: #fff;
+		color: #000;
+		text-decoration:underline #f10;
 	}
 
 
@@ -134,7 +133,7 @@ nav {
 	@media #{$mid-point} {
 		a.cart {
 			border-radius: 43px;
-			color: #fff;
+			color: #000;
 			border: 1px solid rgba(255,255,255, .4);
 			position: absolute;
 			right: 20px;
@@ -150,7 +149,7 @@ nav {
 	}
 
 	a.active {
-		color: #fff;
+		color: #000;
 	}
 
 }
