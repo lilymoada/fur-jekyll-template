@@ -12,5 +12,10 @@ styles:
     color: '#dfd3c2'
     image: /images/urunler/818115A1/818115A1.jpg
 iyzico: 
-urun_kodu: 
+urun_kodu:
+etiket: <div class="img-home-new"></div>
 ---
+
+<!--<div class="img-home-new"></div>-->
+	
+<!--<div class="indirim"> %7</div>-->

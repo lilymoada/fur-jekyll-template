@@ -26,6 +26,7 @@
 		{% if site.snipcart_key %}
 			<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="{{ site.snipcart_key }}"></script>
 		{% endif %}
+
 	
 	</head>
 	<body>
@@ -33,6 +34,7 @@
 			<center><div class="container">
 				<div class="company-name"><a href="{{ site.baseurl }}/">{% include logo.html %}</a></div>
 				{% include navigation.html %}
+				
 			</center></div>
 		</header>
 		{{ content }}
@@ -40,41 +42,30 @@
 			<div class="container">
 				<ul class="footer-columns">
 					<li class="about">
-						<div class="company-name">{% include logo.html %} </div>
-						<p class="editable">Hayatınıza heyecan katacak tasarımları, hızlı, güvenilir ve uygun fiyatlarla kapınıza getiriyoruz.</p>
+						<center><div class="company-name">{% include logo.html %}</div></center>
+						<h4 class="slogan-h4">Onlarca Ürün Çeşitliliği</h4>
+						<p class="slogan">Çantadan, saate, gözlükten bilekliğe çeşit çeşit ürün lilymoada.com’da!</p>
 					</li>
 
 					<li class="footer-nav">
-						<h4>Genel</h4>
-						<ul>
-							<li><a href="/">Ürünler</a></li>
-							<li><a href="/hakkimizda/">Biz Kimiz?</a></li>
-							<li><a href="/iletisim/">İletişim</a></li>
-						</ul>
+						<h4 class="slogan-h4">%100 Güvenli Alışveriş</h4>
+						<p class="slogan">Lilymoada.com, kredi kartı ödemelerinde iyzico.com altyapısını kullanır, tüm kişisel verileriniz şifrelenerek güvence altına alınır.</p>
 					</li>
-
 					<li class="footer-nav">
-						<h4>Yardım</h4>
-						<ul>							
-							<li><a href="/guvenilirlik/">Size Nasıl Güvenicem?</a></li>
-							<li><a href="/returns/">İade politikası</a></li>
-							<li><a href="/shipping/">Kargo</a></a></li>
-						</ul>
+						<h4 class="slogan-h4">En Uygun Fiyat Avantajı</h4>
+						<p class="slogan"> Düşük fiyat, yüksek kalite politikamız sayesinde Lilymoada.com, müşterilerine “En Uygun Fiyat Avantajı” sunar.</p>
 					</li>
-
-					<li>
-						<h4>İletişim</h4>
-						<p>Aklınıza bir şey mi takıldı? <a href="/iletisim/">Bizimle iletişime geçin.</a>.
-						<p>Whatsapp <br><a href="https://api.whatsapp.com/send?phone=9{{ site.author.phone }}">{{ site.author.phone }}</a></p>
-
-						<div class="social-icons">
-							<a class="email" href="mailto:{{ site.author.email }}">{% include social-icon.html icon="Email" %}</a>
-							<a class="instagram" href="http://instagram.com/lilymoada/">{% include social-icon.html icon="Instagram" %}</a>			
-
-						</div>
+					<li class="footer-nav">
+						<h4 class="slogan-h4">Ücretsiz Değişim Garantisi</h4>
+						<p class="slogan"> Lilymoada.com üzerinden vereceğiniz tüm siparişlerde 21 gün içinde ücretsiz değişim garantisi mevcuttur.</p>
+					</li>
+					<li class="footer-nav">
+						<h4 class="slogan-h4">Avantajlı Taksit Seçenekleri</h4>
+						<p class="slogan">Bankalarla yapılan özel anlaşmalarla, farklı kredi kartlarına taksit seçeneği avantajları Lilymoada.com’da!</p>
 					</li>
 				</ul>
-				<p class="copyright">Tüm hakları saklıdır. &copy; {{ site.time | date: '%Y' }} {{ site.title }}, <a href="http://instagram.com/lilymoada/">Instagram</a></p>
+				<center><ul class="footer-columns"><li><a href="http://instagram.com/lilymoada/">Instagram</a></li><li><a href="/guvenilirlik/">Güvenilirlik</a></li><li><a href="/returns/">İade politikası</a></li><li><a href="/shipping/">Kargo</a></li><li><a href="/iletisim/">İletişim</a></li></p></ul></center>
+				<p class="copyright">Tüm hakları saklıdır. &copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
 			</div>
 		</footer>
 		<script>

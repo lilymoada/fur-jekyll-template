@@ -21,7 +21,7 @@ a {
 a:hover {
   text-decoration: underline; }
 
-img {
+.img-home {
   max-width: 80%;
   margin: auto;
   display: block;
@@ -29,8 +29,29 @@ img {
   border-radius: 8px;
   padding: 5px; }
 
-img:hover {
+.img-home:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5); }
+
+.img-home-new {
+  position: absolute;
+  left: 9%;
+  top: 0;
+  background: url(//st2.myideasoft.com/6.4.0/storefront/themes/tpl-v6-t6-gold/assets/images/sprite.png?revision=V6.4.0-16) -184px -336px;
+  width: 50px;
+  height: 50px; }
+
+.indirim {
+  position: absolute;
+  top: 0;
+  left: 9%;
+  width: 48px;
+  height: 53px;
+  background: url(//st2.myideasoft.com/6.4.0/storefront/themes/tpl-v6-t6-gold/assets/images/sprite.png?revision=V6.4.0-16) -241px -336px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold; }
 
 h1 strong, h2 strong {
   font-weight: 700; }
@@ -888,6 +909,11 @@ footer {
     footer .footer-columns p {
       font-size: 1.1rem;
       color: #999; }
+    footer .footer-columns .slogan {
+      font-size: 12px;
+      text-align: center; }
+    footer .footer-columns .slogan-h4 {
+      text-align: center; }
     footer .footer-columns .email {
       margin: 0; }
     footer .footer-columns h4 {
